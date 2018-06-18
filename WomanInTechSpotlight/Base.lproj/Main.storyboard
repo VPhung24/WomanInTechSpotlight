@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WomanInTechSpotlight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Nh8-Qo-4Qc">
+                                <rect key="frame" x="163.5" y="318.5" width="48" height="30"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CgA-KG-ANU">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ig-Z3-ETc">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="30"/>
+                                                <state key="normal" title="ENTER"/>
+                                                <connections>
+                                                    <segue destination="fXM-9X-cMA" kind="show" id="fqK-tF-pEa"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Woman in Tech Spotlight" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zwX-UG-axp">
+                                <rect key="frame" x="68" y="50" width="239" height="166"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="bp1-XP-VXY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbU-2h-3GH">
+                                <rect key="frame" x="133" y="358.5" width="109" height="30"/>
+                                <state key="normal" title="Reshma Saujani"/>
+                                <connections>
+                                    <segue destination="xyN-US-yDk" kind="show" id="c4i-45-N4X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zwX-UG-axp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="AeN-vJ-kIp"/>
+                            <constraint firstItem="Nh8-Qo-4Qc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H38-ye-JBh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zwX-UG-axp" secondAttribute="trailing" constant="68" id="Wwu-ev-aYO"/>
+                            <constraint firstItem="Nh8-Qo-4Qc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XYE-mh-x9R"/>
+                            <constraint firstItem="dbU-2h-3GH" firstAttribute="centerX" secondItem="zwX-UG-axp" secondAttribute="centerX" id="bee-9f-mp1"/>
+                            <constraint firstItem="dbU-2h-3GH" firstAttribute="top" secondItem="Nh8-Qo-4Qc" secondAttribute="bottom" constant="10" id="h0r-zV-tw7"/>
+                            <constraint firstItem="zwX-UG-axp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="roQ-KE-rBc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--ThreeWomenInTech-->
+        <scene sceneID="U8N-zt-cp8">
+            <objects>
+                <viewController title="ThreeWomenInTech" id="fXM-9X-cMA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qoP-ZS-4pP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="q6K-Mp-ioq">
+                                <rect key="frame" x="10" y="30" width="355" height="627"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Feu-P5-ilU">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="205.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9E-Fo-IS2">
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="205.5"/>
+                                                <state key="normal" image="TrishaPrabhu"/>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MvY-aV-gjO">
+                                                <rect key="frame" x="177.5" y="0.0" width="177.5" height="205.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Trisha Prabhu, a 17-year old high school student in Illinois, has been a TEDx speaker, gave the keynote address at the Girls Who Code 5th Anniversary celebrations in NYC, pitched her app on Shark Tank, and was a Global Finalist in The Google Science Fair.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cHu-yD-iRE">
+                                        <rect key="frame" x="0.0" y="210.5" width="355" height="206"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1F0-PI-3bq">
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="206"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <state key="normal" title="Button" image="ReshmaSaujani"/>
+                                                <connections>
+                                                    <segue destination="xyN-US-yDk" kind="show" id="GXJ-bb-HF0"/>
+                                                </connections>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xq9-g7-Rj3">
+                                                <rect key="frame" x="177.5" y="0.0" width="177.5" height="206"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Reshma Saujani is th​e Founder and CEO of​ ​Girls Who Code, a national​ ​non-profit​ ​organization working​ ​to​ ​close​ ​the​ ​gender​ ​gap​ ​in​ ​technology​ ​and​ ​change​ ​the​ ​image​ ​of​ ​what​ ​a​ ​programmer looks​ ​like​ ​and​ ​does.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cXr-xn-RUU">
+                                        <rect key="frame" x="0.0" y="421.5" width="355" height="205.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tE-mB-EGn">
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="205.5"/>
+                                                <state key="normal" title="Button" image="AndreaGonzales"/>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IGI-SO-xvt">
+                                                <rect key="frame" x="177.5" y="0.0" width="177.5" height="205.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Andrea Gonzales final project was a game called Tampon Run. In the game, players become a young woman who needs to collect tampons before her opponents do. When the opponents approach the player, she shoots tampons at them in self-defense.
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="q6K-Mp-ioq" firstAttribute="leading" secondItem="Eb6-TG-qei" secondAttribute="leading" constant="10" id="JmD-Bw-ctP"/>
+                            <constraint firstItem="q6K-Mp-ioq" firstAttribute="top" secondItem="Eb6-TG-qei" secondAttribute="top" constant="10" id="t8H-Qv-cBM"/>
+                            <constraint firstAttribute="trailing" secondItem="q6K-Mp-ioq" secondAttribute="trailing" constant="10" id="x5F-bh-qjS"/>
+                            <constraint firstItem="Eb6-TG-qei" firstAttribute="bottom" secondItem="q6K-Mp-ioq" secondAttribute="bottom" constant="10" id="z7h-6j-yoC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Eb6-TG-qei"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1qL-kp-jIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969" y="-388"/>
+        </scene>
+        <!--GNR-->
+        <scene sceneID="bvY-El-vp3">
+            <objects>
+                <viewController title="GNR" id="LCI-DC-qZR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lXU-q0-4mg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYo-4q-MeL" customClass="webView">
+                                <rect key="frame" x="10" y="30" width="355" height="627"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration" applicationNameForUserAgent="">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oYo-4q-MeL" firstAttribute="leading" secondItem="eKI-jw-0iD" secondAttribute="leading" constant="10" id="1Eo-gs-oNZ"/>
+                            <constraint firstItem="eKI-jw-0iD" firstAttribute="trailing" secondItem="oYo-4q-MeL" secondAttribute="trailing" constant="10" id="NXK-Zb-8Y3"/>
+                            <constraint firstItem="oYo-4q-MeL" firstAttribute="top" secondItem="eKI-jw-0iD" secondAttribute="top" constant="10" id="R3C-Fw-Txg"/>
+                            <constraint firstItem="eKI-jw-0iD" firstAttribute="bottom" secondItem="oYo-4q-MeL" secondAttribute="bottom" constant="10" id="fqR-hL-bZu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eKI-jw-0iD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wb5-Yc-cNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="788"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LOX-vx-syt">
+            <objects>
+                <viewController id="xyN-US-yDk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LPP-XT-exn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lh0-nI-O4g">
+                                <rect key="frame" x="10" y="30" width="355" height="627"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ReshmaSaujani" translatesAutoresizingMaskIntoConstraints="NO" id="iQ7-Cv-VaF">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="202.5"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xgb-SL-QNv">
+                                        <rect key="frame" x="0.0" y="212.5" width="355" height="202"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Reshma Saujani is th​e Founder and CEO of​ ​Girls Who Code, a national​ ​non-profit​ ​organization working​ ​to​ ​close​ ​the​ ​gender​ ​gap​ ​in​ ​technology​ ​and​ ​change​ ​the​ ​image​ ​of​ ​what​ ​a​ ​programmer looks​ ​like​ ​and​ ​does.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqk-2M-Nh4">
+                                        <rect key="frame" x="0.0" y="424.5" width="355" height="202.5"/>
+                                        <state key="normal" title="Back"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="BlL-Zd-NI1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lh0-nI-O4g" secondAttribute="bottom" constant="10" id="DJ8-VM-ylW"/>
+                            <constraint firstItem="lh0-nI-O4g" firstAttribute="leading" secondItem="gy5-CN-aNQ" secondAttribute="leading" constant="10" id="Gtb-jW-tJs"/>
+                            <constraint firstItem="lh0-nI-O4g" firstAttribute="top" secondItem="gy5-CN-aNQ" secondAttribute="top" constant="10" id="KmN-ck-8gi"/>
+                            <constraint firstAttribute="trailing" secondItem="lh0-nI-O4g" secondAttribute="trailing" constant="10" id="YHZ-Bq-tOl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gy5-CN-aNQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxg-es-ZMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1865" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AndreaGonzales" width="298" height="414"/>
+        <image name="ReshmaSaujani" width="480" height="721"/>
+        <image name="TrishaPrabhu" width="1026" height="1292"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="GXJ-bb-HF0"/>
+    </inferredMetricsTieBreakers>
+</document>
