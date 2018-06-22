@@ -153,37 +153,6 @@
             </objects>
             <point key="canvasLocation" x="969" y="-388"/>
         </scene>
-        <!--GNR-->
-        <scene sceneID="bvY-El-vp3">
-            <objects>
-                <viewController title="GNR" id="LCI-DC-qZR" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lXU-q0-4mg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYo-4q-MeL" customClass="webView">
-                                <rect key="frame" x="10" y="30" width="355" height="627"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration" applicationNameForUserAgent="">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="oYo-4q-MeL" firstAttribute="leading" secondItem="eKI-jw-0iD" secondAttribute="leading" constant="10" id="1Eo-gs-oNZ"/>
-                            <constraint firstItem="eKI-jw-0iD" firstAttribute="trailing" secondItem="oYo-4q-MeL" secondAttribute="trailing" constant="10" id="NXK-Zb-8Y3"/>
-                            <constraint firstItem="oYo-4q-MeL" firstAttribute="top" secondItem="eKI-jw-0iD" secondAttribute="top" constant="10" id="R3C-Fw-Txg"/>
-                            <constraint firstItem="eKI-jw-0iD" firstAttribute="bottom" secondItem="oYo-4q-MeL" secondAttribute="bottom" constant="10" id="fqR-hL-bZu"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="eKI-jw-0iD"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wb5-Yc-cNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="910" y="788"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="LOX-vx-syt">
             <objects>
