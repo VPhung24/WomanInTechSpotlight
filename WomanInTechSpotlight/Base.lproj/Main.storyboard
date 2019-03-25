@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -201,10 +201,10 @@
     </scenes>
     <resources>
         <image name="AndreaGonzales" width="298" height="414"/>
-        <image name="ReshmaSaujani" width="480" height="721"/>
-        <image name="TrishaPrabhu" width="1026" height="1292"/>
+        <image name="ReshmaSaujani" width="115.19999694824219" height="173"/>
+        <image name="TrishaPrabhu" width="513" height="646"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GXJ-bb-HF0"/>
+        <segue reference="c4i-45-N4X"/>
     </inferredMetricsTieBreakers>
 </document>
